@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Robot";
-  src: url(/Assets/Fonts/3959.ttf);
+  src: url(/Assets/Fonts/RobotoCondensed-Regular.ttf);
 }
 
 .container {
@@ -40,7 +40,7 @@
 }
 
 .first-nav .sign-in-up {
-  font-family: Robot;
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 14px;  
@@ -51,7 +51,7 @@
 }
 
 nav {
-  font-family: Robot;
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 21px;  
   line-height: 5px;
 }
