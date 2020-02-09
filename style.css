@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Robot";
+  src: url(/Assets/Fonts/3959.ttf);
+}
+
+.container {
+  max-width: 1310px;
+}
+
+.first-nav {
+  background-color: #f72210;  
+  padding: 20px 10px 15px;
+  color: #FFFFFF;
+}
+
+.logo {
+  align-self: center;
+}
+
+.logo svg {
+  fill: white;
+  width: 396px;
+  height: 60px;  
+}
+
+.date {
+  margin-left: 20px;
+  font-family: Robot;
+  font-size: 16px;
+}
+
+.first-nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.first-nav .sign-in-up a:last-child {
+  background-color: #FFFFFF;
+  color: #f72210;
+}
+
+.first-nav .sign-in-up {
+  font-family: Robot;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;  
+}
+
+.first-nav .sign-in-up a {
+  padding: 3px 3px;
+}
+
+nav {
+  font-family: Robot;
+  font-size: 21px;  
+  line-height: 5px;
+}
+
+nav ul {
+  white-space: nowrap;
+}
+
+nav a {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #f72210;
+}
+
+.weird-thing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 65px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
