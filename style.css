@@ -62,6 +62,7 @@ nav ul {
 
 nav a {
   color: black;
+  padding: 0.5rem 0 !important;
 }
 
 nav ul li a:hover {
