@@ -3,8 +3,13 @@
   src: url(./Assets/Fonts/RobotoCondensed-Regular.ttf);
 }
 
+body {
+  background-color: #f4f5f6 !important;
+}
+
 .container {
   max-width: 1310px;
+  background-color: #FFFFFF;
 }
 
 .first-nav {
@@ -92,3 +97,61 @@ input:focus, input.form-control:focus {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+h4 {
+  text-transform: uppercase;
+  font-family: "Robot", Arial, Helvetica, sans-serif ;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(3,3,3,.4);
+}
+
+.content-container h3 {
+  font-family: "Robot", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+}
+
+.content-container a {
+  color: black;  
+}
+
+.content-container a:hover {
+  text-decoration: underline #f72210;
+}
+
+.content-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.content-container .img-container {
+  position: relative;
+}
+
+.content-container span {
+  color: #f72210;
+  font-weight: 600;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,.9);
+}
+
+.marij-container h4 {
+  color: black;
+}
+
+.third-column h3 {
+  text-transform: uppercase;
+  font-family: "Robot", Arial, Helvetica, sans-serif ;
+  font-size: 21px;
+  font-weight: 700;
+  color: black;
+}
+
+.third-column h3 a:hover {
+  color: #f72210;
+}
+
