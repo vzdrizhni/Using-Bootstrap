@@ -146,12 +146,20 @@ h4 {
 .third-column h3 {
   text-transform: uppercase;
   font-family: "Robot", Arial, Helvetica, sans-serif ;
-  font-size: 21px;
+  font-size: 14px;
   font-weight: 700;
   color: black;
 }
 
-.third-column h3 a:hover {
-  color: #f72210;
+.third-column h4 {
+  font-size: 14px;
+}
+
+.third-column h3:hover {
+  color: #f72210;  
+}
+
+.third-column a:hover {
+  text-decoration: none;
 }
 
