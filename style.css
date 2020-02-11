@@ -7,9 +7,9 @@ body {
   background-color: #f4f5f6 !important;
 }
 
-.container {
-  max-width: 1310px;
+.container-fluid {  
   background-color: #FFFFFF;
+  max-width: 1310px;
 }
 
 .first-nav {
@@ -212,3 +212,57 @@ h4 {
   background-color: #272727;
 }
 
+.another-content-container h4 {
+  font-family: "Robot", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  color: black;
+}
+
+.another-content-container p {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.another-content-container a:hover {
+  text-decoration: underline #f72210;
+}
+
+.icon-container img {
+  background-color: #f72210;
+  width: 15%;
+}
+
+.sign-up-form {
+  background-color: #F4F5F6;
+}
+
+.icon-container h6 {
+  font-family: "Robot", Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  line-height: 19px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.anchor-container a:first-child {
+  font-family: "Robot";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #666666;
+  color: #FFFFFF;
+}
+
+.anchor-container a:first-child:hover {
+  background-color: #999999;
+}
+
+.anchor-container a:last-child {
+  font-family: "Robot";
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #333333;
+}
