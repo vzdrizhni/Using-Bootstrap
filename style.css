@@ -266,3 +266,89 @@ h4 {
   font-weight: 700;
   color: #333333;
 }
+
+.mag-pic-container {
+  position: relative;
+}
+
+.mag-pic-container span {
+  position: absolute;
+  background-color: rgba(255,255,255,.9);
+  bottom: 0;
+  left: 0;
+  color: #f72210;
+  font-family: "Robot";
+  font-size: 16px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+.what-the-hell-container {
+  font-family: "Robot";
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: 700;
+  background-color: #DBDCDD;
+}
+
+.mag-pic-container img {
+  width: -webkit-fill-available;
+}
+
+.what-the-hell-container a {
+  color: #000000;
+}
+
+.what-the-hell-container a:hover {
+  text-decoration: none;
+}
+
+.mag-first-row img {
+  width: inherit;
+  height: 87%;
+}
+
+.mag-first-row span {
+  background-color: #f72210;
+  font-family: "Robot";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.mag-first-row a {
+  font-family: "Robot";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.mag-first-row a:hover {
+  text-decoration: none;
+}
+
+.mag-first-row h5 {
+  font-family: "Robot";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.magazine-title {
+  width: fit-content;
+  height: fit-content;
+}
+
+.magazine-title img {
+  width: 2%;
+}
+
+.magazine-title a:hover {
+  text-decoration: underline;
+  color: #f72210;
+}
+
