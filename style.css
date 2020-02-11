@@ -114,7 +114,12 @@ h4 {
 }
 
 .content-container a {
-  color: black;  
+  color: black;
+  width: 100%;
+}
+
+.img-container img {
+  width: inherit;
 }
 
 .content-container a:hover {
@@ -161,5 +166,49 @@ h4 {
 
 .third-column a:hover {
   text-decoration: none;
+}
+
+.second-third-part img {
+  width: 130px;
+  height: 90px;
+}
+
+.culture-and-travel-container {
+  background-color: #F4F5F7;
+}
+
+.culture-and-travel-container a, .culture-and-travel-container img {
+  width: inherit;  
+}
+
+.culture-and-travel-container a {
+  height: fit-content;
+}
+
+.culture-and-travel-container h5 {
+  font-family: Lora;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.culture-and-travel-container p {
+  font-family: Helvetica, sans-serif;
+  color: rgba(39,39,39,.5);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.cult a:last-child {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: black;
+  width: fit-content;
+  background-color: #C2D4D7;
+  text-decoration: none;
+}
+
+.cult a:hover {
+  background-color: #272727;
 }
 
