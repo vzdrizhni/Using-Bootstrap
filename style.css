@@ -483,3 +483,41 @@ h4 {
 .description-section a:hover {
   text-decoration-color: #f72210;
 }
+
+.more-news-container h5 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.more-news-container a {
+  font-family: "Robot";
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.more-news-container a:hover {
+  text-decoration-color: #f72210;
+}
+
+.world-section h2 {
+  color: #f72210;
+}
+
+.sub-img-container {
+  position: relative;
+  height: 300px;
+}
+
+.sub-img-container img:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sub-img-container img:last-child {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+}
