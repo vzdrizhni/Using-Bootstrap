@@ -252,7 +252,7 @@ h4 {
 }
 
 .anchor-container a:first-child {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
@@ -265,7 +265,7 @@ h4 {
 }
 
 .anchor-container a:last-child {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 15px;
   font-weight: 700;
@@ -282,14 +282,14 @@ h4 {
   bottom: 0;
   left: 0;
   color: #f72210;
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 33px;
   font-weight: 700;
 }
 
 .what-the-hell-container {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #000000;
@@ -315,7 +315,7 @@ h4 {
 
 .mag-first-row span {
   background-color: #f72210;
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
@@ -323,7 +323,7 @@ h4 {
 }
 
 .mag-first-row a {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
@@ -335,7 +335,7 @@ h4 {
 }
 
 .mag-first-row h5 {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
@@ -361,7 +361,7 @@ h4 {
 
 .mag-second-row span {
   background-color: #f72210;
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
@@ -369,7 +369,7 @@ h4 {
 }
 
 .mag-second-row a {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
@@ -381,7 +381,7 @@ h4 {
 }
 
 .mag-second-row h5 {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
@@ -398,7 +398,7 @@ h4 {
 
 .editors-pick-content-container span {
   background-color: #f72210;
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
@@ -406,7 +406,7 @@ h4 {
 }
 
 .editors-pick-content-container a {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
@@ -418,7 +418,7 @@ h4 {
 }
 
 .editors-pick-content-container h5 {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
@@ -429,7 +429,7 @@ h4 {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 16px;
   font-weight: 700;
@@ -473,7 +473,7 @@ h4 {
 }
 
 .description-section a {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
@@ -490,7 +490,7 @@ h4 {
 }
 
 .more-news-container a {
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
@@ -507,7 +507,8 @@ h4 {
 
 .sub-img-container {
   position: relative;
-  height: 300px;
+  height: 275px;
+  width: 248px;
 }
 
 .sub-img-container img:first-child {
@@ -520,4 +521,77 @@ h4 {
   position: absolute;
   top: 45px;
   left: 45px;
+}
+
+.sub-cont-wrapper h3 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.sub-cont-wrapper p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: 300;
+}
+
+.sub-cont-wrapper {
+  background-color: #F4F5F6;
+}
+
+.subscribe-section h4 {
+  font-family: "Robot", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f72210;
+}
+
+.sub-description a {
+  background-color: #f72210;
+  color: #FFFFFF;
+  font-family: "Robot", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sub-news-wrapper {
+  background-color: #FFFFFF;
+}
+
+.news-img-container img {
+  height: 371px;
+  width: 190px;
+}
+
+.newsletter-section h4 {
+  font-family: "Robot", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f72210;
+}
+
+.sub-news-description h3 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.sub-news-description p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: 300;
+}
+
+.sub-news-description a {
+  background-color: #f72210;
+  color: #FFFFFF;
+  font-family: "Robot", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
