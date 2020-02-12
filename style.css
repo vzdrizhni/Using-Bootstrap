@@ -342,8 +342,7 @@ h4 {
   color: #000000;
 }
 
-.magazine-title {
-  width: fit-content;
+.magazine-title {  
   height: fit-content;
 }
 
@@ -444,4 +443,43 @@ h4 {
   line-height: 20px;
   color: #333333;
   font-weight: 400;
+}
+
+.img-container {
+  position: relative;
+}
+
+.slideshows-items .img-container span {
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 40px;
+  width: 60px;
+}
+
+.slideshows-items .img-container span p {
+  font-size: 20px;
+  color: #f72210;
+  font-weight: 700;
+}
+
+.description-section h5 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.description-section a {
+  font-family: "Robot";
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.description-section a:hover {
+  text-decoration-color: #f72210;
 }
