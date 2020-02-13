@@ -3,34 +3,31 @@
   src: url(./Assets/Fonts/RobotoCondensed-Regular.ttf);
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow: auto;
 }
 
 body {
-  background-color: #f4f5f6 !important;  
+  background-color: #f4f5f6 !important;
 }
 
-.container-fluid {  
+.container-fluid {
   background-color: #FFFFFF;
   max-width: 1310px;
 }
 
 .first-nav {
-  background-color: #f72210;  
+  background-color: #f72210;
   padding: 20px 10px 15px;
   color: #FFFFFF;
-}
-
-.logo {
-  align-self: center;
 }
 
 .logo svg {
   fill: white;
   width: 396px;
-  height: 60px;  
+  height: 60px;
 }
 
 .date {
@@ -53,7 +50,7 @@ body {
   font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 14px;  
+  line-height: 14px;
 }
 
 .first-nav .sign-in-up a {
@@ -62,7 +59,7 @@ body {
 
 nav {
   font-family: "Robot", Arial, Helvetica, sans-serif;
-  font-size: 21px;  
+  font-size: 21px;
   line-height: 5px;
 }
 
@@ -95,8 +92,9 @@ input {
   border: none !important;
 }
 
-input:focus, input.form-control:focus {
-  outline:none !important;
+input:focus,
+input.form-control:focus {
+  outline: none !important;
   outline-width: 0 !important;
   box-shadow: none;
   -moz-box-shadow: none;
@@ -105,10 +103,10 @@ input:focus, input.form-control:focus {
 
 h4 {
   text-transform: uppercase;
-  font-family: "Robot", Arial, Helvetica, sans-serif ;
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, .4);
 }
 
 .content-container h3 {
@@ -146,7 +144,7 @@ h4 {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
 }
 
 .marij-container h4 {
@@ -155,7 +153,7 @@ h4 {
 
 .third-column h3 {
   text-transform: uppercase;
-  font-family: "Robot", Arial, Helvetica, sans-serif ;
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: black;
@@ -166,7 +164,7 @@ h4 {
 }
 
 .third-column h3:hover {
-  color: #f72210;  
+  color: #f72210;
 }
 
 .third-column a:hover {
@@ -182,7 +180,8 @@ h4 {
   background-color: #F4F5F7;
 }
 
-.culture-and-travel-container a, .culture-and-travel-container img {
+.culture-and-travel-container a,
+.culture-and-travel-container img {
   width: inherit;
 }
 
@@ -198,7 +197,7 @@ h4 {
 
 .culture-and-travel-container p {
   font-family: Helvetica, sans-serif;
-  color: rgba(39,39,39,.5);
+  color: rgba(39, 39, 39, .5);
   font-size: 15px;
   line-height: 20px;
 }
@@ -278,7 +277,7 @@ h4 {
 
 .mag-pic-container span {
   position: absolute;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   bottom: 0;
   left: 0;
   color: #f72210;
@@ -310,7 +309,7 @@ h4 {
 }
 
 .mag-first-row img {
-  width: inherit;  
+  width: inherit;
 }
 
 .mag-first-row span {
@@ -342,7 +341,7 @@ h4 {
   color: #000000;
 }
 
-.magazine-title {  
+.magazine-title {
   height: fit-content;
 }
 
@@ -356,7 +355,7 @@ h4 {
 }
 
 .mag-second-row img {
-  width: inherit;  
+  width: inherit;
 }
 
 .mag-second-row span {
@@ -594,4 +593,47 @@ h4 {
   font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
+}
+
+.left-top-foot-part p {
+  line-height: 15px;
+}
+
+.right-top-foot-part {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.right-top-foot-part a {
+  color: #666666;
+}
+
+.right-top-foot-part a:hover {
+  color: #7A8EB9;
+}
+
+.editions ul li {
+  list-style: none;
+}
+
+.editions a {
+  color: #666666;
+}
+
+.editions a:hover {
+  color: #272727;
+  text-decoration: none;
+}
+
+.footer-links a {
+  color: #666666;
+}
+
+.footer-links a:hover {
+  color: #272727;
+  text-decoration: none;
+}
+
+.rtfp-svg-container svg {
+  fill: #f72210;
 }
