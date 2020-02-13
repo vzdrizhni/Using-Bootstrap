@@ -41,7 +41,7 @@ body {
   text-decoration: none;
 }
 
-.first-nav .sign-in-up a:last-child {
+.first-nav .sign-in-up a:nth-child(2) {
   background-color: #FFFFFF;
   color: #f72210;
 }
@@ -271,6 +271,10 @@ h4 {
   color: #333333;
 }
 
+.in-the-magazine h5 {
+  font-size: 5vh;
+}
+
 .mag-pic-container {
   position: relative;
 }
@@ -335,10 +339,15 @@ h4 {
 
 .mag-first-row h5 {
   font-family: "Robot", Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1vw;
   line-height: 20px;
   font-weight: 700;
   color: #000000;
+}
+
+.whitedescription p {
+  font-size: 1.5vw;
+  display: inline
 }
 
 .magazine-title {
@@ -566,7 +575,7 @@ h4 {
 
 .sub-news-wrapper {
   background-color: #FFFFFF;
-  height: 86%!important;
+  height: 92%!important;
 }
 
 .news-img-container {
@@ -655,8 +664,7 @@ h4 {
 }
 
 .more-news-content-container a, .more-news-content-container img {
-  width: 100%;
-  height: fit-content;
+  width: 100%;  
 }
 
 .mag-pic-container {
@@ -669,8 +677,9 @@ h4 {
 
 
 .main-content {
-  height: 1750px;
+  height: 1850px;
   align-items: stretch;
+  overflow: auto;
 }
 
 .second-column {   
@@ -696,4 +705,48 @@ h4 {
   margin: 0 0 !important;
 }
 
+@media screen and (min-width: 992px) {
+  .sign-in-up a:last-child {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 992px) {
+
+  .date {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .logo svg {
+    width: 131px;
+    display: flex;
+    align-self: flex-end;
+    height: auto;
+  }
+
+  .first-nav {
+    display: flex;
+    justify-content: space-between !important;
+  }
+
+  .sign-in-up a {
+    display: inline;
+  }
+
+}
+
+@media screen and (max-width: 768px) {  
+
+  .date {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+}
