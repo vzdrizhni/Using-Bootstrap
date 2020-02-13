@@ -558,11 +558,15 @@ h4 {
 
 .sub-news-wrapper {
   background-color: #FFFFFF;
+  height: 86%!important;
+}
+
+.news-img-container {
+  height: 100%;
 }
 
 .news-img-container img {
-  height: 323px;
-  width: 190px;
+  height: 100%;
 }
 
 .newsletter-section h4 {
