@@ -14,14 +14,14 @@ body {
 }
 
 .container-fluid {
-  background-color: #FFFFFF;
+  background-color: #fff;
   max-width: 1310px;
 }
 
 .first-nav {
   background-color: #f72210;
   padding: 20px 10px 15px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .logo svg {
@@ -32,17 +32,26 @@ body {
 
 .date {
   margin-left: 20px;
-  font-family: "Robot";
+  font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
+nav a {
+  color: black;
+  padding: 0.5rem 0 !important;
+}
+
 .first-nav a {
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
 }
 
+.first-nav .sign-in-up a {
+  padding: 3px 3px;
+}
+
 .first-nav .sign-in-up a:nth-child(2) {
-  background-color: #FFFFFF;
+  background-color: #fff;
   color: #f72210;
 }
 
@@ -53,10 +62,6 @@ body {
   line-height: 14px;
 }
 
-.first-nav .sign-in-up a {
-  padding: 3px 3px;
-}
-
 nav {
   font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 21px;
@@ -65,11 +70,6 @@ nav {
 
 nav ul {
   white-space: nowrap;
-}
-
-nav a {
-  color: black;
-  padding: 0.5rem 0 !important;
 }
 
 nav ul li a:hover {
@@ -106,7 +106,7 @@ h4 {
   font-family: "Robot", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .content-container h3 {
@@ -144,7 +144,7 @@ h4 {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .marij-container h4 {
@@ -177,7 +177,7 @@ h4 {
 }
 
 .culture-and-travel-container {
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 
 .culture-and-travel-container a:first-child,
@@ -339,7 +339,7 @@ h4 {
 
 .mag-first-row h5 {
   font-family: "Robot", Arial, Helvetica, sans-serif;
-  font-size: 1vw;
+  font-size: 20px;
   line-height: 20px;
   font-weight: 700;
   color: #000000;
@@ -709,10 +709,14 @@ h4 {
   .sign-in-up a:last-child {
     display: none;
   }
+
+  .main-content {
+    height: 100%;
+    overflow: visible;
+  }
 }
 
 @media screen and (max-width: 992px) {
-
   .date {
     display: none;
   }
@@ -737,10 +741,12 @@ h4 {
     display: inline;
   }
 
+  .magazine-title img {
+    width: 3%;
+  }
 }
 
-@media screen and (max-width: 768px) {  
-
+@media screen and (max-width: 768px) {
   .date {
     display: none;
   }
@@ -748,5 +754,53 @@ h4 {
   .navbar {
     display: none;
   }
+}
 
+@media screen and (max-width: 576px) {
+  .sub-img-container {
+    width: 100%;
+  }
+
+  .magazine-title img {
+    width: 3%;
+  }
+
+  .sub-img-container img:first-child {
+    position: absolute;
+    top: 0;
+    left: 25%;
+  }
+
+  .sub-img-container img:last-child {
+    position: absolute;
+    top: 45px;
+    left: 145px;
+  }
+
+  .sub-description {
+    text-align: center;
+  }  
+
+  .newsletter-section {
+    display: flex;
+    flex-direction: column;
+  }  
+
+  .sub-news-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+  }
+
+  .news-img-container {
+    height: 50%;
+  }
+
+  .sub-news-description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }  
 }
