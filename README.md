@@ -1,6 +1,6 @@
 # Using bootstrap
 
-> TNW Magazine responsive page.
+> Newsweek responsive page clone.
 
 ![screenshot](./Assets/pic.png)
 
