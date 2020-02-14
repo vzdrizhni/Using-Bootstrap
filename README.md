@@ -1,4 +1,4 @@
-# Building with responsive design
+# Using bootstrap
 
 > TNW Magazine responsive page.
 
