@@ -2,7 +2,7 @@
 
 > TNW Magazine responsive page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Assets/pic.png)
 
 Project description.
 
@@ -13,7 +13,7 @@ Project description.
 
 ## Live Demo
 
-[Live Demo Link](https://patriciachrysy.github.io/Build-responsive-design/)
+[Live Demo Link](https://rawcdn.githack.com/vzdrizhni/Using-Bootstrap/8db3e0fc70135566f2330a98f72f2b05ac2b4d4b/index.html)
 
 
 ## Getting Started
@@ -54,13 +54,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
-
-👤 Manezeu Patricia Chrystelle
-
-- Github: [@githubhandle](https://github.com/patriciachrysy)
-- Twitter: [@twitterhandle](https://twitter.com/ManezeuP)
-- Linkedin: [linkedin](https://www.linkedin.com/in/manezeu-patricia-chrystelle-095072118/)
+## Author
 
 👤 Roman Nikolaev 
 
