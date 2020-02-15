@@ -1,6 +1,6 @@
 # Using bootstrap
 
-> TNW Magazine responsive page.
+> Newsweek responsive page clone.
 
 ![screenshot](./Assets/pic.png)
 
@@ -13,7 +13,7 @@ Project description.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/vzdrizhni/Using-Bootstrap/8db3e0fc70135566f2330a98f72f2b05ac2b4d4b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/vzdrizhni/Using-Bootstrap/90fa709ab6c9851642f4cde6a3781ad561669302/index.html)
 
 
 ## Getting Started
