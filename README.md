@@ -1,8 +1,8 @@
-# Building with responsive design
+# Using bootstrap
 
-> TNW Magazine responsive page.
+> Newsweek responsive page clone.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Assets/pic.png)
 
 Project description.
 
@@ -13,7 +13,7 @@ Project description.
 
 ## Live Demo
 
-[Live Demo Link](https://patriciachrysy.github.io/Build-responsive-design/)
+[Live Demo Link](https://rawcdn.githack.com/vzdrizhni/Using-Bootstrap/a3f8da5e3b7e6104ac52f0f692098c3425eec1f4/index.html)
 
 
 ## Getting Started
@@ -54,13 +54,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
-
-👤 Manezeu Patricia Chrystelle
-
-- Github: [@githubhandle](https://github.com/patriciachrysy)
-- Twitter: [@twitterhandle](https://twitter.com/ManezeuP)
-- Linkedin: [linkedin](https://www.linkedin.com/in/manezeu-patricia-chrystelle-095072118/)
+## Author
 
 👤 Roman Nikolaev 
 
