@@ -669,6 +669,12 @@ h4 {
   left: 0;
 }
 
+#Layer_2 {
+  display: block;
+  width: 236px;
+  height: 36px;
+}
+
 @media screen and (min-width: 992px) {
   .sign-in-up a:last-child {
     display: none;
