@@ -787,4 +787,8 @@ h4 {
     align-items: center;
     justify-content: center;
   }
+
+  .news-week {
+    padding-left: 0;
+  }
 }
