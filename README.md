@@ -1,10 +1,9 @@
 # Using bootstrap
 
-> Newsweek responsive page clone.
+> Project that I worked on to build my skills with layout and design using bootstrap.
 
 ![screenshot](./Assets/pic.png)
 
-Project description.
 
 ## Built With
 
@@ -14,15 +13,6 @@ Project description.
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/vzdrizhni/Using-Bootstrap/a3f8da5e3b7e6104ac52f0f692098c3425eec1f4/index.html)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -72,11 +62,4 @@ Feel free to check the [issues page]().
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
-
